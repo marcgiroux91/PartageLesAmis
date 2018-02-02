@@ -5,7 +5,7 @@ import java.io.*;
 public class HelloWorld {
 
     public static void main(String[] args) { 
-        
+        //voici une version du portable via netbeam
         Biblio.lireFichier("src/PartageLesAmis/biblio.txt"); 
           try { 
                 BufferedReader br = new BufferedReader(new FileReader("src/PartageLesAmis/biblio.txt"));
