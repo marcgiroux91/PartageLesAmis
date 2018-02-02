@@ -1,0 +1,55 @@
+hunt1999ppj
+The Pragmatic Programmer
+Hunt, A. et Thomas, D.
+1999
+Addison-Wesley Professional
+1
+https://pragprog.com/book/tpp/the-pragmatic-programmer
+https://imagery.pragprog.com/products/59/tpp_xlargecover.jpg
+L
+
+* * *
+gamma1995dpe
+Design patterns: Elements of Reusable Object-Oriented Software
+Gamma, E. and Helm, R. and Johnson, R. and Vlissides, J.
+1995
+Addison-Wesley
+
+https://www.amazon.ca/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
+https://qph.ec.quoracdn.net/main-qimg-e966f479b74b12155f6a6ebdff1999cd-c
+X
+Manuel de référence
+* * *
+fowler1999rid
+Refactoring: Improving the Design of Existing Code
+Fowler, M.
+1999
+Addison-Wesley Professional
+
+https://www.amazon.ca/dp/B007WTFWJ6/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
+
+L
+
+* * *
+asterix
+Astérix et la transitalique
+JEAN-YVES FERRI, DIDIER CONRAD
+2017
+ALBERT RENE
+
+https://www.archambault.ca/livres/ast%C3%A9rix-et-la-transitalique-37/jean-yves-ferri-didier-conrad/9782864973270/?id=2335390&cat=2
+https://img.archambault.ca/images/PG/2335/2335390-gf.jpg?404=default&w=400
+L
+
+* * *
+dan
+Origine
+DAN BROWN
+2017
+LATTES
+
+https://www.archambault.ca/livres/origine/dan-brown/9782709659802/?id=2293249&cat=2
+https://img.archambault.ca/images/PG/2293/2293249-gf.jpg?404=default&w=400
+L
+
+* * *
