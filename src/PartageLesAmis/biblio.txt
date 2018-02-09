@@ -1,3 +1,4 @@
+
 hunt1999ppj
 The Pragmatic Programmer
 Hunt, A. et Thomas, D.
@@ -18,7 +19,7 @@ Addison-Wesley
 https://www.amazon.ca/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612
 https://qph.ec.quoracdn.net/main-qimg-e966f479b74b12155f6a6ebdff1999cd-c
 X
-Manuel de référence
+Manuel de rÃ©fÃ©rence
 * * *
 fowler1999rid
 Refactoring: Improving the Design of Existing Code
@@ -32,7 +33,7 @@ L
 
 * * *
 asterix
-Astérix et la transitalique
+AstÃ©rix et la transitalique
 JEAN-YVES FERRI, DIDIER CONRAD
 2017
 ALBERT RENE

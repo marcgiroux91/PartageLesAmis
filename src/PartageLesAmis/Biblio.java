@@ -15,7 +15,7 @@ public class Biblio {
                 }                
                 br.close();       
             } catch (Exception ex ) {
-                System.out.println("Problème d'ouverture du fichier" + "biblio.txt" );
+                System.out.println("ProblÃ¨me d'ouverture du fichier" + "biblio.txt" );
             } 
     }
     
