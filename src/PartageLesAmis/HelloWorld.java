@@ -7,6 +7,7 @@ public class HelloWorld {
     public static void main(String[] args) { 
         //voici une version du portable via netbeam
         // voici les informations que j'ajouter sur l'autre branche 
+        // ligne patate poil jolie coeur
         Biblio.lireFichier("src/PartageLesAmis/biblio.txt"); 
         try { 
             BufferedReader br = new BufferedReader(new FileReader("src/PartageLesAmis/biblio.txt"));
