@@ -19,7 +19,8 @@ public class HelloWorld {
         } catch (Exception ex ) {
             System.out.println("ProblÃ¨me d'ouverture du fichier" + "biblio.txt" );
         } 
-        int nombre1, nombre2, prendrechoix; 
+        int nombre1, nombre2;
+        String prendrechoix; 
         int operation1, operation2, operation3, operation4;
         Scanner clavier = new Scanner(System.in);        
 
@@ -33,22 +34,22 @@ public class HelloWorld {
             System.out.println("Entrer le deuxiÃ¨me nombre :");
             nombre2 = clavier.nextInt();              
             switch (prendrechoix){
-                case 1 : 
+                case "A" : 
                     operation1 = addition(nombre1,nombre2);
                     System.out.println("Voici la somme de la fonction Â«additionÂ» : " + operation1);
                     break;
-                case 2 : operation2 = soustraction(nombre1,nombre2);
+                case "B" : operation2 = soustraction(nombre1,nombre2);
                     System.out.println("Voici la soustraction de la fonction Â«soustractionÂ» : " + operation2);
                     break;
-                case 3 : operation3 = multiplication(nombre1,nombre2);
+                case "C" : operation3 = multiplication(nombre1,nombre2);
                     System.out.println("Voici la multiplication de la fonction Â«multiplicationÂ» : " + operation3);
                     break;
-                case 4 : operation4 = division(nombre1,nombre2);
+                case "D" : operation4 = division(nombre1,nombre2);
                     System.out.println("Voici la division de la fonction Â«divisionÂ» : " + operation4);
                     break;                
             }             
             prendrechoix = choixmenu();
-        } while (prendrechoix !=0); 
+        } while (!prendrechoix.equals("Q")); 
 
         System.out.println("Le programme s'arrÃªte abruttement");
         System.exit(0);  
@@ -71,20 +72,24 @@ public class HelloWorld {
 
     public static void menu (){
         System.out.println("Bienvenue aux opÃ©rations arithmÃ©tique");
-        System.out.println("1 : addition");
-        System.out.println("2 : soustraction");
-        System.out.println("3 : multiplication");
-        System.out.println("4 : division");
-        System.out.println("0 : Quitter");
+        System.out.println("A : addition");
+        System.out.println("B : soustraction");
+        System.out.println("C : multiplication");
+        System.out.println("D : division");
+        System.out.println("Q : Quitter");
     }
 
-    public static int choixmenu(){
-        int choix;
+    public static String choixmenu(){
+        String choix;
         Scanner clavier = new Scanner(System.in);
         do{
             System.out.println("Entrer votre l'opÃ©ration mathÃ©matique demandÃ©e !");
-            choix = clavier.nextInt();
-        } while ((choix < 0 || (choix > 4)));
+            choix = clavier.next();
+        } while ( !choix.equals("A") &&
+                  !choix.equals("B") &&
+                  !choix.equals("C") &&
+                  !choix.equals("D") &&
+                  !choix.equals("Q"));
         return choix;
     }
 }
